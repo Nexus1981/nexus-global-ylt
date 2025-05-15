@@ -1,1 +1,64 @@
-body { font-family: Arial; background-color: #f6f6f6; }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+  margin: 0;
+}
+header {
+  background-color: #f77f00;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+nav {
+  background-color: #009e60;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+section {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+footer {
+  background-color: #ff9f1c;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+.cta {
+  background-color: #009e60;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.logo {
+  max-width: 150px;
+  margin-bottom: 1rem;
+}
+.product-image {
+  max-width: 100%;
+  margin-top: 1rem;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+}
